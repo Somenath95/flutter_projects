@@ -9,12 +9,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'BG Changer',
+      title: 'My Flutter App',
       debugShowCheckedModeBanner: false,
       theme: ThemeData.dark(),
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Random Background'),
+          title: Text('My Flutter App'),
         ),
         body: HomePage(),
       ),
@@ -64,7 +64,7 @@ class _HomePageState extends State<HomePage> {
           ),
           onPressed: setRandomColor,
           shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(30.0),
+            borderRadius: BorderRadius.circular(20.0),
           ),
         ),
       ),
